@@ -1,4 +1,4 @@
-# Internet-Search-Project
+# Internet-Electronic-Search-Walmart-Amazon-Ebay-Project
 
 ## CS5334.0251/0252, Advanced Information Processing, Spring, 2016 Programming Project
 
