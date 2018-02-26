@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>AIIP ASSIGNMENT 2</title>
+</head>
+
+<body bgcolor="#3366ff" link="#000000">
+  
+  <center><h2>Employee Details Search</h2></center>
+  <center>-by KOMMURU JAYA NAGA BHAVANA</center>
+
+  <body>
+    <form action="/~j_k201/cgi-bin/EmployeeSearch.pl" method="get">
+
+    <p>Choose an option?</p>
+    
+    <input type="radio" name="empsearch" value="DeptSearch1" />
+		Enter Dept Name:
+	<input name="dept_name" type="text" size="20"/>
+	<br>
+	<input type="radio" name="empsearch" value="DeptSearch2" />
+		Enter Dept No:
+	<input name="dept_no" type="number" size="20"/>
+    <br>
+	<input type="radio" name="empsearch" value="sal" />
+        Enter Two salary values:
+	<input name="sal1" type="number" size="20"/>
+	<input name="sal2" type="number" size="20"/>
+    <br>
+	<input type="radio" name="empsearch" value="comm" />
+        Enter Two commission values:
+	<input name="comm1" type="number" size="20"/>
+	<input name="comm2" type="number" size="20"/>	
+   	<br> 
+	<input name="SubmitChoices" type="submit" align = "center" value = "SubmitChoices"/> 
+			   
+    </form>
+  </body>
+</html>
